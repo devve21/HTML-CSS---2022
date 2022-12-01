@@ -1,0 +1,203 @@
+@import url("https://use.fontawesome.com/releases/v5.15.4/css/all.css");
+body {
+  margin: 0;
+  font-family: Helvetica, sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 130px;
+  padding: 25px;
+}
+header h1 {
+  color: #454547;
+}
+span {
+  color: #21a2b5;
+}
+nav ul li {
+  color: #454547;
+  list-style: none;
+  display: inline-block;
+  margin-right: 30px;
+  font-size: 25px;
+}
+nav ul li:hover {
+  border-bottom: 5px solid #21a2b5;
+}
+.get_started {
+  background-image: url(images/slide2.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 350px;
+}
+.btn_started {
+  color: white;
+  background-color: #008cba;
+  padding: 12px 80px;
+  font-size: 32px;
+  border-radius: 38px;
+  text-decoration: none;
+  border: none;
+}
+.main-wrapper {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  max-width: 50%;
+  padding: 20px;
+}
+.main-wrapper p {
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-size: 55px;
+}
+.welcome {
+  text-align: center;
+  width: 70%;
+  margin: auto;
+}
+.welcome_title {
+  color: #454547;
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.top {
+  height: 5px;
+  background-color: #21a2b5;
+  border: none;
+  width: 140px;
+}
+.welcome .text {
+  font-size: 24px;
+  color: #454547;
+  margin-bottom: 40px;
+}
+.btn_read {
+  color: white;
+  background-color: #454545;
+  padding: 15px 35px;
+  font-size: 23px;
+  border-radius: 38px;
+  text-decoration: none;
+  border: none;
+  margin-bottom: 50px;
+}
+/* section */
+.services {
+    padding-top: 150px;
+  display: flex;
+  background-color: #eef0f1;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.services > article {
+  background-color: white;
+  border: none;
+  text-align: center;
+  width: 450px;
+}
+.services > article img {
+  width: 100%;
+}
+.services_title{
+    position: absolute;
+    font-size: 40px;
+    color: #454545;
+    margin-bottom: 640px;
+}
+.article_title{
+    color:#454545;
+    font-size: 30px;
+}
+.services p{
+    color: #454545;
+    font-size: 22px;
+}
+.services button{
+    color: white;
+    background-color: #454545;
+    padding: 15px 35px;
+    font-size: 23px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 50px;
+}
+footer{
+    background-color: #2f3539;
+    color: white;
+    padding: 100px;
+}
+footer ul {
+    width: 20%;
+    margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+footer ul li{
+    text-decoration: none;
+    display: block;
+    margin: 4px 0;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+footer ul li:first-child {
+    margin-bottom: 12px;
+    font-weight: bold;
+}
+
+footer ul li i {
+    font-size: 25px;
+    margin: 8px;
+    cursor: pointer;
+}
+.copyright{
+    background-color: #262b2f;
+    margin-top: 150px;
+    padding: 20px;
+    width: 1600px;
+    text-align: center;
+}
+.copyright a{
+    text-decoration: none;
+    color: #1771a7;
+}
+.newsletter{
+    text-align: center;
+    color: white;
+    background-color: #393f43;
+    padding: 100px;
+}
+.title_news{
+    font-size: 40px;
+    margin: 0;
+}
+.text_news{
+    font-size: 20px;
+}
+.newsletter hr {
+
+    height: 2px;
+    background-color: white;
+    border: none;
+    width: 140px;
+}
+.sub{
+    color: white;
+    background-color: #6bbfff;
+    padding: 15px 35px;
+    font-size: 23px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,77 @@
+@media screen and (max-width: 600px) {
+  #top-bar ul:first-child li:last-child{
+      display: none;
+  }
+    #main-menu{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+    #main-menu ul {
+      display: inline-block;
+  }
+  #main-menu ul li{
+     display: block;
+     text-align: center;
+  }
+  header #main-menu ul li{
+      border: 1px solid #d83747;
+      margin-bottom: 8px;
+  }
+  main aside {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #left-aside {
+    margin-top: 10px;
+  }
+  #left-aside article {
+    border-bottom: none;
+  }
+  #news {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+  }
+  #news article {
+    width: 95%;
+  }
+  #right-aside {
+    width: 100%;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+  #right-aside div {
+    width: 87%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  footer ul{
+      width: unset;
+      margin-bottom: 0;
+  }
+  footer :last-child{
+      margin-top: 0;
+      margin-bottom: 15px;
+  }
+  footer ul li:last-child{
+      margin-bottom: 0;
+  }
+}
